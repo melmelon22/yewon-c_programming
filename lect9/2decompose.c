@@ -19,10 +19,7 @@ int main() {
 }
 
 
-void decompose(
-    const double x,
-    long* inner_int_part2,
-    double* inner_frac_part2) {
-        *inner_int_part2 = (long)x;
-        *inner_frac_part2 = x - *inner_int_part2;
+void decompose(const double x, long* inner_int_part2, double* inner_frac_part2) {
+    *inner_int_part2 = (long)x;
+    *inner_frac_part2 = x - *inner_int_part2;
 }

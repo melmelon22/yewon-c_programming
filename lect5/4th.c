@@ -9,6 +9,7 @@ int main() {
     int frequency[RANGE] = {0};  // Initialize frequency array to 0
     int arr[MAX_SIZE];
 
+
     printf("Enter the number of elements (max %d): ", MAX_SIZE);
     scanf("%d", &n);
 
